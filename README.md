@@ -1,1 +1,1 @@
-# bloodypimples-github.io
+# bloodypimples.github.io
