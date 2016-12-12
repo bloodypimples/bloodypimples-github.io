@@ -46,7 +46,7 @@ $.fn.fitText = function(compressor, options) {
 //fitext ends
 $(window).on('load', function(){
 
-	$('.greet').fitText(1.5)
+	$('.greet').fitText(2)
 
 })
 
