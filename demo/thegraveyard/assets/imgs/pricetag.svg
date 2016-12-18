@@ -1,0 +1,10 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="322.454px" height="98.995px" viewBox="0 0 322.454 98.995" enable-background="new 0 0 322.454 98.995"
+xml:space="preserve">
+<path d="M254.917,0H0v98.995h254.917l67.537-49.498L254.917,0z M274.584,61.164c-6.443,0-11.667-5.224-11.667-11.666
+c0-6.443,5.224-11.667,11.667-11.667c6.443,0,11.667,5.224,11.667,11.667C286.251,55.94,281.027,61.164,274.584,61.164z"/>
+<text transform="matrix(1 0 0 1 133.625 64.0781)" fill="#FFFFFF" font-family="'ExocetLight'">
+	<tspan class="then" font-size="25">then</tspan>
+	<tspan class="now" font-size="50">now</tspan>
+</text>
+</svg>
