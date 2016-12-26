@@ -1689,8 +1689,6 @@ var routes = {
 
 						cart[url] = productObj;
 
-						console.log( Object.keys(cart) )
-
 						updateCartItemsCount();
 					})
 
