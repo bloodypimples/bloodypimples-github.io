@@ -46,6 +46,12 @@ $.fn.fitText = function(compressor, options) {
 //fitext ends
 $(window).on('load', function(){
 
+	$(body).css({
+
+		'height':$(window).innerHeight();
+		'opacity':1;
+	})
+
 	$('.greet').fitText(2)
 
 })
