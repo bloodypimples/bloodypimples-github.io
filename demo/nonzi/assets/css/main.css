@@ -634,7 +634,7 @@ body > .wrapper{
 	margin-right: 0px;
 }
 .item svg{
-	position: absolute;
+	position: relative;
 	width: 60%;
 	height: 60%;
 	transform: translateX(0px) translateY(0px);
