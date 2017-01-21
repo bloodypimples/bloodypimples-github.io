@@ -1,0 +1,238 @@
+html, body, h1, h2, h3, h4, h5, h6, p{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;;
+	color: #333;
+	line-height: 1.4;
+	text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+noscript{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../assets/fonts/Raleway-Medium.ttf');
+}
+.head{
+	position: relative;
+	box-sizing: border-box;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+.head > .bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 120%;
+	background-color: #333;
+	z-index: -1;
+}
+.head > .bg .skewed-line{
+	position: absolute;
+	bottom: -79.9px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+}
+.head > .bg .skewed-line svg{
+	width: 100%;
+	height: 100%;
+}
+.head .headshot{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	transition: all 300ms ease;
+}
+.head .headshot:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+}
+.headshot img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.head .info{
+	margin-left: 10px;
+	border-left: 4px solid white;
+	box-sizing: border-box;
+	padding-left: 4px;
+	color: white;
+}
+.head .info .name{
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.head .info .title{
+	margin-bottom: 5px;
+}
+.wrapper a{
+	color: white;
+}
+.body{
+	position: relative;
+	box-sizing: border-box;
+	padding: 0px 10px;
+}
+.body > .wrapper{
+	margin-left: 40px;
+	padding: 100px 0px 250px;
+	box-sizing: border-box;
+}
+.wrapper > .line{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 2px;
+	left: 49px;
+	background-color: #333;
+}
+.point{
+	position: relative;
+	margin-top: 200px;
+}
+.point:first-child{
+	margin-top: 0px;
+}
+.point .icon{
+	position: absolute;
+	left: -40px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #333;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+}
+.point .icon svg{
+	width: 60%;
+	height: 60%;
+}
+.point .text{
+	margin-left: 50px;
+}
+.text .title{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.text .content span{
+	display: block;
+	margin-bottom: 10px;
+}
+.cta{
+	display: inline-block;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: 2px solid #333;
+	transition: all 300ms ease;
+	cursor: pointer;
+	color: #333;
+}
+.cta:hover{
+	background: #333;
+	color: white;
+}
+.wrapper .foot{
+		position: relative;
+		width: 100%;
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 24px;
+		z-index: 1;
+		box-sizing: border-box;
+		padding: 0px 10px;
+}
+.foot > .bg{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	z-index: -1;
+	background: #333;
+	transition: all 300ms ease;
+}
+.foot path{
+	transition: all 300ms ease;
+}
+.foot:hover path{
+	fill: #444;
+}
+.foot:hover > .bg{
+	background: #444;
+}
+.foot .skewed-line{
+	position: absolute;
+	top: -79.9px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+}
+.foot .skewed-line svg{
+	width: 100%;
+	height: 100%;
+}
+@media(min-width: 640px){
+	.body > .wrapper{
+		margin: 0px;
+		width: 50%;
+		margin-left: 50%;
+	}
+	.wrapper .line{
+		left: 50%;
+		margin-left: -1px;
+	}
+	.point:nth-child(even) .text{
+		text-align: right;
+		margin: 0px;
+		padding-right: 50px;
+		transform: translateX(-100%);
+	}
+	.point .text{
+		max-width: 500px;
+	}
+	.wrapper .foot{
+		font-size: 36px;
+	}
+}
+@media(min-width: 840px){
+	.head{
+		padding: 40px 40px 10px;
+	}
+	.body{
+		padding: 0px 40px;
+	}
+}
