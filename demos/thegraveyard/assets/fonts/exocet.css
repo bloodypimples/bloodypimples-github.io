@@ -1,0 +1,10 @@
+@font-face{
+	font-family: 'Exocet';
+	src: url(exocetLight.ttf);
+	font-weight: 400;
+}
+@font-face{
+	font-family: 'Exocet';
+	src: url(exocetHeavy.ttf);
+	font-weight: 700;
+}
