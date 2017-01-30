@@ -11,6 +11,7 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	opacity: 0;
 }
@@ -28,67 +29,21 @@ noscript{
 	font-weight: 300;
 	font-size: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body a{
+	color: #B4DA55;
+	cursor: pointer;
+}
+.suggestion span{
+	font-style: normal;
+	margin-left: 3px;
+}
+.suggestion{
+	margin-top: 1rem;
+	font-style: italic;
+}
+@media(max-width: 700px){
+	.suggestion{
+		margin-top: 0.3rem;
+		font-size: .8rem;
+	}
+}
